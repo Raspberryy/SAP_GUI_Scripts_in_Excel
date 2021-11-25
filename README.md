@@ -27,6 +27,9 @@ started?                    |
               No ---> Start Logon 
 ~~~
 
+## Get Started
+Copy the VBS Script to wherever you will need it. In Line 8 enter the SAP Client Name. The Name can be seen in the SAP Logon. In Line 26 Confirm the installation location of the saplogon.exe. Copy your GUI Script somewhere between line 82 and 87. 
+
 ## Considerations
 Whenever you are automating any task in SAP, Users might lose knowledge on how to do these tasks by themselves. Should for whatever reason the script break, a user, who previously knew the process very well, might no longer be able to debug the error and get back to the developer saying that the script isn't working anymore instead of trying to find a solution themselves.  
 
